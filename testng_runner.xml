@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="VladTestNg" verbose="2">
+
+    <test name="testNG_runner">
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+
+</suite>

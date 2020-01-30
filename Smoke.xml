@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke tests" verbose="2">
+
+    <test name="smoke tests">
+
+        <packages>
+
+            <package name="PageObjModelTests"></package>
+
+        </packages>
+
+        <classes>
+
+            <class name="seleniumTests.day12_Impl_Expl_Th_Wait">
+
+                <methods>
+                    <exclude name="ThreesWait"/>
+                </methods>
+
+            </class>
+
+        </classes>
+
+    </test >
+</suite>
+
